@@ -1,0 +1,29 @@
+{
+  "name": "file_upload_library",
+  "version": "1.0.0",
+  "description": "JavaScript/Node.js library package for file uploads in PWAs",
+  "main": "bin/municipality_server",
+  "scripts": {
+    "start": "node bin/municipality_server"
+  },
+  "author": "NOT Howard Bates",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 11.10.1"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "formidable": "^1.2.1",
+    "http2": "latest",
+    "jsdoc": "^3.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BackPacker777/FileUploadLibrary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BackPacker777/FileUploadLibrary/issues"
+  },
+  "homepage": "https://github.com/BackPacker777/FileUploadLibrary#readme"
+}

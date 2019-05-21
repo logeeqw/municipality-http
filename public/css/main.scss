@@ -1,0 +1,58 @@
+@import "foundation";
+@import "overrides";
+
+#top{
+    background-color: #00002c;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+#local-businesses{
+    margin-top: 50px;
+}
+
+.container{
+    background-color: ghostwhite;
+    flex-direction: row;
+}
+
+.business-link{
+    width: 350px;
+}
+
+#waterfront{
+    width: 100%;
+}
+
+#local-businesses-left{
+    float: left;
+}
+
+#local-businesses-right{
+    float: right;
+    margin-top: 6.5%;
+}
+
+#local-businesses{
+    margin: 1%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 910px) {
+    .button{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    #local-businesses-right{
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 639px) and (min-width: 585px) {
+    #problem{
+        margin-left: 170px;
+    }
+}

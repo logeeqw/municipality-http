@@ -1,0 +1,10 @@
+<script src="public/js/main.js" type="module"></script>
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/serviceWorker.js')
+            .then(function() { console.log("Service Worker Registered"); });
+    }
+</script>
+</body>
+</html>
